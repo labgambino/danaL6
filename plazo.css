@@ -1,0 +1,101 @@
+/*
+HOJA DE ESTILOS
+*/
+
+
+body { 
+    margin: 0;
+    padding: 0;
+height: 100vh;
+    background: url(fondoweb.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    
+	
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+h1{
+    background-color:#000000;
+    color:white;
+    border:solid;
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center; 
+    font-family:sans-serif;
+    margin: 0;
+    
+}
+
+h2{
+    text-align: center;
+    font-family:sans-serif;
+    color: #ffffff;
+}
+
+
+div{    
+    padding: 100px;
+    border: solid 2px #000000;
+    width: 50vw;
+    height: 40vh;
+    margin: 50px auto;
+    border border-collapse: collapse;
+    background-size:500px 500px;
+    background-color: rgba(0, 0, 0, 0.4); 
+
+}
+
+
+
+
+.imagencentrada {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+img{
+    max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+    
+}
+
+video{
+    padding: 0px;
+    border: solid 2px #fff;
+    width: 400px;
+    margin: 0 auto;  
+}
+
+h3{
+    text-align: center;
+    background-color: #000000;
+    color:white;
+    font-family:sans-serif;
+    margin: 10;
+    
+    
+}
+
+
